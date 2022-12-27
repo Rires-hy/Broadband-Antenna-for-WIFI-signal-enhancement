@@ -1,0 +1,12 @@
+$begin 'CacheDataVersion'
+	DataVersion=32
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	dist='380mm'
+	dR='1mm'
+	dL='62.5mm'
+	dG='2mm'
+	LBOX='80mm'
+	LR='90mm'
+	WR='90mm'
+$end 'VariableValues'

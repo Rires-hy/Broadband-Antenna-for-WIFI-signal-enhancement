@@ -1,0 +1,12 @@
+$begin 'CacheDataVersion'
+	DataVersion=29
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	subH='1.6mm'
+	subX='20mm'
+	subY='10mm+ThruL'
+	MW='1mm'
+	g='0.2mm'
+	ThruL='10mm'
+	tapW='4mm'
+$end 'VariableValues'

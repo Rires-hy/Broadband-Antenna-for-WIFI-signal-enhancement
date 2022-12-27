@@ -1,0 +1,148 @@
+$begin 'soln'
+	ObjectType='HfssModal'
+	SolutionType='DiscreteSweep'
+	MajorVersion=2
+	MinorVersion=0
+	Producer=''
+	Name='Adaptive_1 '
+	AdaptivePass=5
+	$begin 'Frequencies'
+		$begin 'DataPoint'
+			Frequency=2450000000
+			DataType='None'
+			$begin 'SMatrix'
+				m=4
+				n=4
+				$begin 'r0'
+					c(0.3542227603616632, -0.6028758441643027)
+					c(-7.740868931572947e-05, 1.538258771811727e-05)
+					c(-0.000100763530666034, 5.260788174032475e-05)
+					c(-0.01145145025525857, 0.00702532922491452)
+				$end 'r0'
+				$begin 'r1'
+					c(-7.740868931569692e-05, 1.538258771814497e-05)
+					c(-0.9282579171983016, -0.3320382091918391)
+					c(0.001702698822572514, -0.002997879511876521)
+					c(4.673315900134234e-05, 0.0002130588691408544)
+				$end 'r1'
+				$begin 'r2'
+					c(-0.0001007635306660339, 5.260788174030931e-05)
+					c(0.001702698822572516, -0.002997879511876529)
+					c(-0.9243710440718218, -0.3432665486836559)
+					c(-1.061544651739799e-05, -0.0002141949702000628)
+				$end 'r2'
+				$begin 'r3'
+					c(-0.01145145025525859, 0.007025329224914501)
+					c(4.673315900134643e-05, 0.0002130588691408596)
+					c(-1.061544651739798e-05, -0.0002141949702000678)
+					c(-0.03430853842194026, -0.2670743103964544)
+				$end 'r3'
+			$end 'SMatrix'
+			$begin 'Port ABCD'
+				$begin 'AmI_matrix'
+					Rows()
+					Cols()
+					Values()
+				$end 'AmI_matrix'
+				$begin 'B_matrix'
+					Rows(3, 0)
+					Cols(3, 0)
+					Values(c(0, -6.50937037123436), c(0, -5.222477889039752))
+				$end 'B_matrix'
+				$begin 'C_matrix'
+					Rows()
+					Cols()
+					Values()
+				$end 'C_matrix'
+				$begin 'DmI_matrix'
+					Rows()
+					Cols()
+					Values()
+				$end 'DmI_matrix'
+			$end 'Port ABCD'
+			EnergyError=1331132.077733976
+			IeEnergyError=0
+			$begin 'Gamma'
+				n=4
+				$begin 'r0'
+					c(0, 0)
+					c(0, 0)
+					c(0, 0)
+					c(0, 0)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=4
+				$begin 'r0'
+					c(50, 0)
+					c(50, 0)
+					c(50, 0)
+					c(50, 0)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'Zpv'
+				n=4
+				$begin 'r0'
+					c(50, 0)
+					c(50, 0)
+					c(50, 0)
+					c(50, 0)
+				$end 'r0'
+			$end 'Zpv'
+			$begin 'Zwave'
+				n=4
+				$begin 'r0'
+					c(93.74999990178463, -2.533529229742371e-07)
+					c(248.7908251690096, 0)
+					c(248.2791226987628, 0)
+					c(23.00001351019106, -1.350128978019199e-05)
+				$end 'r0'
+			$end 'Zwave'
+			$begin 'TerminalPMatrix'
+				m=4
+				n=4
+				$begin 'r0'
+					c(1.999999999999999, -5.404862373631358e-09)
+					c(0, 0)
+					c(0, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(2, 0)
+					c(0, 0)
+					c(0, 0)
+				$end 'r1'
+				$begin 'r2'
+					c(0, 0)
+					c(0, 0)
+					c(2, 0)
+					c(0, 0)
+				$end 'r2'
+				$begin 'r3'
+					c(0, 0)
+					c(0, 0)
+					c(0, 0)
+					c(1.999999999999726, -1.174024506998264e-06)
+				$end 'r3'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+	$end 'Frequencies'
+	$begin 'Ports'
+		Port(ModalEntryName='wrokbench_resonator1_1', TerminalEntryName='wrokbench_resonator1_1', PortName='wrokbench_resonator1_1', Mode=1, ModeName='', TerminalName='', ParameterName='', MatrixIndex=0)
+		Port(ModalEntryName='SMA_CONNECTOR1_1', TerminalEntryName='SMA_CONNECTOR1_1', PortName='SMA_CONNECTOR1_1', Mode=1, ModeName='', TerminalName='', ParameterName='', MatrixIndex=1)
+		Port(ModalEntryName='SMA_CONNECTOR2_1', TerminalEntryName='SMA_CONNECTOR2_1', PortName='SMA_CONNECTOR2_1', Mode=1, ModeName='', TerminalName='', ParameterName='', MatrixIndex=2)
+		Port(ModalEntryName='Ti_24GHz_pcb_antenna1_1', TerminalEntryName='Ti_24GHz_pcb_antenna1_1', PortName='Ti_24GHz_pcb_antenna1_1', Mode=1, ModeName='', TerminalName='', ParameterName='', MatrixIndex=3)
+	$end 'Ports'
+	$begin 'OtherStateSpaceModels'
+	$end 'OtherStateSpaceModels'
+	$begin 'PortInductances'
+		PortInductanceMap(Ti_24GHz_pcb_antenna1_1=4.228565187746429e-10, wrokbench_resonator1_1=3.392584372362462e-10)
+	$end 'PortInductances'
+	HigherOrderMode=false
+	PortNames('wrokbench_resonator1_1', 'SMA_CONNECTOR1_1', 'SMA_CONNECTOR2_1', 'Ti_24GHz_pcb_antenna1_1')
+	PortModes(1, 1, 1, 1)
+	ModalData=true
+	LastSolvedFreq=0
+	PreferredImpedance='Zpi'
+$end 'soln'

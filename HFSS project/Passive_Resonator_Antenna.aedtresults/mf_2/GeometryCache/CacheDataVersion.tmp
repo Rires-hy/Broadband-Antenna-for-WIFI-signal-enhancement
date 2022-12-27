@@ -1,0 +1,12 @@
+$begin 'CacheDataVersion'
+	DataVersion=19
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	H='2.5mm'
+	W1='621.085um'
+	L1='3276.951um'
+	W2='13998.498um'
+	L2='3666.709um'
+	W3='621.085um'
+	L3='5324.009um'
+$end 'VariableValues'

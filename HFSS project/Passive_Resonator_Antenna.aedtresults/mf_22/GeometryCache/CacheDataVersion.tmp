@@ -1,0 +1,8 @@
+$begin 'CacheDataVersion'
+	DataVersion=17
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	subH='-1.1mm'
+	armL='-16.4mm'
+	armL1='armL'
+$end 'VariableValues'

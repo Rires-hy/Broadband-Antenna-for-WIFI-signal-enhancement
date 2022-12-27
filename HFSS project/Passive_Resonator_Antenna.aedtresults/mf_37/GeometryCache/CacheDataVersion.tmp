@@ -1,0 +1,9 @@
+$begin 'CacheDataVersion'
+	DataVersion=40
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	subH='-1.2mm'
+	armL='-16.4mm'
+	armL1='armL'
+	tapL='1.992mm'
+$end 'VariableValues'
